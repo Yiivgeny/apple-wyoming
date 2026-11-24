@@ -1,0 +1,32 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+
+# Release artifacts and local acceptance notes
+/outputs/
+
+# Machine-specific agent instructions
+AGENTS.md
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS metadata
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Python test caches
+__pycache__/
+*.pyc
+
+# Runtime logs
+*.log
